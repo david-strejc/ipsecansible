@@ -1,0 +1,17 @@
+---
+
+- name: install
+  yum:
+    pkg: "{{ item  }}"
+    state: present
+    update_cache: yes
+  with_items:
+    - epel-release
+
+- name: install
+  yum:
+    pkg: "{{ item  }}"
+    state: present
+    update_cache: yes
+  with_items:
+    - ipsec-tools

@@ -1,0 +1,6 @@
+---
+
+- include: yum.yml
+
+- include: setup.yml
+
